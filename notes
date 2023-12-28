@@ -30,4 +30,4 @@ npm i --save class-validator class-transformer
 ## Observações
 - No Nest isolamos os arquivos da pasta por regra de negócio 
 - Auth é a pasta de autenticação e tudo que for sobre isso estará dentro dessa pasta
-- Pasta helpers é a pasta para mensagens de validçação
+- Pasta helpers é a pasta para mensagens de validçação'
