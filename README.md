@@ -26,6 +26,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Prototipo (Figma)
+https://www.figma.com/file/mIXcu8SJWqi0ylVHtZn89a/Devameet-(Projeto-2023)?type=design&node-id=1-4&mode=design&t=oV47t3wZvXpy4ERz-0
+
 ## Installation
 
 ```bash
