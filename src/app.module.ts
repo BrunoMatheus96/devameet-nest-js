@@ -7,6 +7,7 @@ import { APP_GUARD } from '@nestjs/core';
 import { JwtAuthGuard } from './auth/guards/jwt.guard';
 import { MeetService } from './meet/meet.service';
 import { MeetModule } from './meet/meet.module';
+import { RoomModule } from './room/room.module';
 
 //Decorator do estilo módulo
 /*Módulo é um agrupamento de arquivo que fechamos como se fosse um micro serviço. Então módulo é uma parte do código
@@ -17,7 +18,8 @@ que funciona de forma autonoma (pode ter entrada e aída) mas funciona sozinho.*
    MongooseModule.forRoot(process.env.DATABASE_URL),  
    AuthModule,
    UserModule,
-   MeetModule  
+   MeetModule,
+   RoomModule  
   ], 
   controllers: [], 
   providers: [
