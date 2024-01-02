@@ -22,6 +22,6 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api'); //Setando o prefixo global das requisições para que todas as URL tenham o /api e se não tiver, não irá funcionar corretamente.
 
-  await app.listen(3000);
+  await app.listen(process.env.SERVER_PORT);
 }
 bootstrap();
